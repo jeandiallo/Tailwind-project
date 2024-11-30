@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Blog</title>
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  clifford: "#da373d",
+                },
+              },
+            },
+          };
+        </script>
+      </head>
+      <body></body>
+    </html>
+  </head>
+  <body>
+    <header class="flex bg-slate-200 justify-between gap-2">
+      <h1 class="text-3xl text-center text-blue-700 justify-start">
+        Football <span class="text-lime-800">BLOG</span>
+      </h1>
+      <nav class="text-xl">
+        <a href="#featuring" class="text-cyan-950">Featured</a>
+        <a href="#categories" class="text-cyan-950">Categories</a>
+        <a href="#recent" class="text-cyan-950">Recent-Posts</a>
+        <a href="#subs" class="text-cyan-950">Subscription</a>
+      </nav>
+    </header>
+    <main>
+      <h2
+        class="text-center text-2xl bg-emerald-900 text-white mb-4 mt-4 font-bold"
+      >
+        They could have made the greatest attacking trio ever !!!
+      </h2>
+      <div class="sm:grid grid-cols-3 gap-2 mx-auto mb-6" id="featuring">
+        <div class="border-8 border-teal-700 text-center">
+          <h2 class="text-center text-2xl bg-teal-700 text-white">
+            Lionel Messi
+          </h2>
+          <img class="h-64 mx-auto" src="109890703_original_messi.jpg" alt="" />
+          <p class="text-teal-950">
+            Lionel Messi is widely regarded as one of the greatest footballers
+            of all time, known for his incredible dribbling skills, vision, and
+            playmaking ability.
+          </p>
+          <button
+            class="bg-teal-700 w-full text-white hover:text-black border-t-2 border-gray-400 mt-6"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="border-8 border-teal-700 text-center">
+          <h2 class="text-center text-2xl bg-teal-700 text-white">
+            Cristiano Ronaldo
+          </h2>
+          <img
+            class="h-64 mx-auto"
+            src="MV5BYTI4OGJiYmItY2U2OS00ZjAzLWFlNzMtOThkZmUyZDMzMzE2XkEyXkFqcGc@._V1_ronaldo.jpg"
+            alt=""
+          />
+          <p>
+            Cristiano Ronaldo is a football legend known for his exceptional
+            athleticism, clinical finishing, and relentless work ethic, making
+            him one of the greatest goal scorers in the history of the sport.
+          </p>
+          <button
+            class="bg-teal-700 w-full text-white hover:text-black border-t-2 border-gray-400"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="border-8 border-teal-700 text-center">
+          <h2 class="text-center text-2xl bg-teal-700 text-white">
+            Neymar Da Silva
+          </h2>
+          <img class="h-64 mx-auto" src="_neymar2.jpg" alt="" />
+          <p>
+            Neymar is a skillful and creative forward known for his dazzling
+            dribbling, flair, and ability to create scoring opportunities,
+            making him one of the most entertaining players in modern football.
+          </p>
+          <button
+            class="bg-teal-700 w-full text-white hover:text-black border-t-2 border-gray-400"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+      <h2
+        class="text-2xl text-white bg-sky-600 text-center p-2 w-fit mx-auto underline mb-4"
+        id="categories"
+      >
+        Categories - Read what you are into
+      </h2>
+      <div
+        class="bg-orange-700 grid grid-cols-4 gap-2 text-white grid-rows-1 items-center"
+      >
+        <div class="col-span-1 text-center row-span-2">
+          <h2 class="bg-black">Forwards</h2>
+          <p class="mb-2">
+            Football forwards are attacking players primarily responsible for
+            scoring goals and creating offensive opportunities for their team.
+          </p>
+          <button class="bg-black rounded-lg p-2 hover:text-orange-400">
+            Learn More about them
+          </button>
+        </div>
+        <div class="col-span-1 mb-5">
+          <img src="vinicius-junior-3.jpg" alt="" />
+        </div>
+        <div class="col-span-1 mt-8">
+          <img src="photo-nsjsport-shutterstock-sipa-1668774924.jpg" alt="" />
+        </div>
+        <div class="col-span-1 mb-10">
+          <img src="3247847-66474208-2560-1440.jpg" alt="" />
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-4 bg-fuchsia-950 text-white mt-5 items-center gap-2 text-center"
+      >
+        <div>
+          <img src="2167993380.0_pedri.jpg" alt="" />
+        </div>
+        <div>
+          <img
+            class=""
+            src="depositphotos_599162692-stock-photo-kevin-bruyne-manchester-city.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img src="Jude-Bellingham-1-e1692476140298.jpeg" alt="" />
+        </div>
+        <div>
+          <h2 class="text-center bg-black mx-auto">Midfielders</h2>
+          <p class="text-center">
+            Football midfielders are versatile players who control the flow of
+            the game, linking defense and attack with vision, passing, and
+            tactical awareness.
+          </p>
+          <button
+            class="bg-black text-center p-2 rounded-lg hover:text-fuchsia-500 mx-auto"
+          >
+            Learn More about them
+          </button>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-4 bg-sky-800 text-white mt-5 items-center gap-2"
+      >
+        <div class="text-center">
+          <h2 class="bg-black">Defenders</h2>
+          <p>
+            Football defenders are responsible for preventing the opposing team
+            from scoring by blocking attacks, intercepting passes, and
+            maintaining defensive organization.
+          </p>
+          <button class="bg-black text-white p-2 rounded-lg hover:text-sky-800">
+            Learn More about them
+          </button>
+        </div>
+        <div>
+          <img src="_vandijk.jpeg" alt="" />
+        </div>
+        <div>
+          <img src="3287606-67232388-2560-1440_araujo.jpg" alt="" />
+        </div>
+        <div>
+          <img src="3941763-80048968-2560-1440_rubendias.jpg" alt="" />
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-4 bg-gray-700 text-white mt-5 items-center gap-2"
+      >
+        <div class="text-center">
+          <h2 class="text-center bg-black">GoalKeepers</h2>
+          <p>
+            Football goalkeepers are the last line of defense, responsible for
+            protecting the goal, making crucial saves, and organizing the
+            defense.
+          </p>
+          <button class="p-2 rounded-lg bg-black hover:text-gray-700">
+            Learn More about them
+          </button>
+        </div>
+        <div>
+          <img class="mb-10" src="4059f_neuer.jpg" alt="" />
+        </div>
+        <div>
+          <img
+            class="mt-10"
+            src="skysports-thibaut-courtois_4568901.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img class="mb-8" src="edouard-mendy.jpg" alt="" />
+        </div>
+      </div>
+      <h2
+        class="text-center text-blue-800 font-bold text-2xl underline mt-4"
+        id="recent"
+      >
+        Recent Posts - Our most recent and very insightful articles
+      </h2>
+
+      <div class="grid grid-cols-2 gap-2 items-center">
+        <div class="mt-3">
+          <div class="mt-1 border-4 rounded-lg border-blue-600 text-center p-4">
+            <img class="mx-auto" src="Flick.jpg" alt="" />
+            <p>
+              Hansi Flick's debut with Barcelona has been promising. His first
+              matches in charge have demonstrated his tactical acumen and focus
+              on developing a dynamic, high-pressing style of play.
+            </p>
+            <button
+              class="bg-blue-600 text-white w-full mt-3 hover:text-blue-400 text-2xl"
+            >
+              Keep reading
+            </button>
+          </div>
+        </div>
+        <div class="self-start mt-5">
+          <div
+            class="border-4 rounded-lg border-blue-600 text-center p-4 h-full"
+          >
+            <img
+              class=""
+              src="20200218-The18-Image-Champions-League-Ball-2020.jpeg"
+              alt=""
+            />
+            <p>
+              The UEFA Champions League will feature a new format starting with
+              the 2024/25 season. Known as the "Swiss Model," it introduces
+              significant changes to the competition's structure, increasing the
+              total teams from 32 to 36 and replacing the traditional group
+              stage with a single-league phase.
+            </p>
+            <button
+              class="bg-blue-600 text-white w-full hover:text-blue-400 text-2xl"
+            >
+              Keep reading
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2
+          class="text-center bg-lime-950 text-lime-300 w-fit mx-auto mt-2 p-2"
+        >
+          If you want to read more articles, please consider subscribing...
+          <br />
+          And the best part : it's <span class="text-green-400"> FREE </span>!
+        </h2>
+        <div id="subs">
+          <form
+            class="grid grid-cols-1 bg-blue-950 text-white mt-4 w-fit mx-auto"
+          >
+            <label for="name">Please write your name</label>
+            <input type="text" placeholder="Your name" />
+            <label for="email">Please write your email</label>
+            <input type="email" placeholder="Email" />
+          </form>
+          <button class="block mx-auto bg-blue-950 text-white text-2xl mb-4">
+            Submit
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="flex justify-around">
+      <p class="text-2xl">&copy; Football BLOG</p>
+      <img src="5296499_fb_facebook_facebook logo_icon (1).png" alt="" />
+      <img src="5296765_camera_instagram_instagram logo_icon.png" alt="" />
+    </footer>
+  </body>
+</html>
